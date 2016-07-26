@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.groupon.dse</groupId>
     <artifactId>mezzanine</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
 
     <name>${project.groupId}:${project.artifactId}</name>
     <description>A library built on Spark Streaming used to consume data from Kafka and store it into Hadoop.
@@ -38,7 +37,7 @@
         <connection>scm:git:git@github.com:groupon/mezzanine.git</connection>
         <developerConnection>scm:git:git@github.com:groupon/mezzanine.git</developerConnection>
         <url>https://github.com/groupon/mezzanine</url>
-        <tag>HEAD</tag>
+        <tag>mezzanine-1.0</tag>
     </scm>
 
     <distributionManagement>
@@ -90,7 +89,7 @@
 
     <pluginRepositories>
         <pluginRepository>
-            <releases/>
+            <releases />
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
@@ -102,7 +101,7 @@
             <releases>
                 <enabled>false</enabled>
             </releases>
-            <snapshots/>
+            <snapshots />
             <id>snapshots</id>
             <name>Snapshots Repository</name>
             <url>http://nexus-dev/content/groups/public-snapshots</url>
