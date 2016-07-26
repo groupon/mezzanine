@@ -4,7 +4,7 @@
 
     <groupId>com.groupon.dse</groupId>
     <artifactId>mezzanine</artifactId>
-    <version>1.0</version>
+    <version>1.1-SNAPSHOT</version>
 
     <name>${project.groupId}:${project.artifactId}</name>
     <description>A library built on Spark Streaming used to consume data from Kafka and store it into Hadoop.
@@ -37,7 +37,7 @@
         <connection>scm:git:git@github.com:groupon/mezzanine.git</connection>
         <developerConnection>scm:git:git@github.com:groupon/mezzanine.git</developerConnection>
         <url>https://github.com/groupon/mezzanine</url>
-        <tag>mezzanine-1.0</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <distributionManagement>
