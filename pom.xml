@@ -87,27 +87,6 @@
         <maven>${project.maven.version}</maven>
     </prerequisites>
 
-    <pluginRepositories>
-        <pluginRepository>
-            <releases />
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-            <id>releases</id>
-            <name>Releases Repository</name>
-            <url>http://nexus-dev/content/groups/public</url>
-        </pluginRepository>
-        <pluginRepository>
-            <releases>
-                <enabled>false</enabled>
-            </releases>
-            <snapshots />
-            <id>snapshots</id>
-            <name>Snapshots Repository</name>
-            <url>http://nexus-dev/content/groups/public-snapshots</url>
-        </pluginRepository>
-    </pluginRepositories>
-
     <build>
         <plugins>
             <plugin>
